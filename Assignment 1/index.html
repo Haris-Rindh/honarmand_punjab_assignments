@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haris Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1 class="logo">Haris Rindh</h1>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="home">
+    <div class="home-content">
+        <h2>Welcome to My Portfolio</h2>
+        <p>I build modern, responsive, and high-performance websites which scale your business.</p>
+        <a href="#contact" class="btn">Get In Touch</a>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <img src="profile.webp" alt="Haris Rindh" width="150" height="150" fetchpriority="high" class="profile-img">
+    <p>Hello! I'm Haris, a passionate web developer focused on clean, scalable, and modern software design.</p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Skills & Expertise</h2>
+    <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>MERN Stack</li>
+        <li>Rest Api</li>
+    </ul>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" placeholder="Haris" required>
+        </div>
+
+        <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="Rindh" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="haris@example.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="How can I help you?" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+</body>
+</html>
